@@ -23,5 +23,6 @@
     },
     "bin": [
         "wordpress"
-    ]
+    ],
+    "minimum-stability": "dev"
 }
