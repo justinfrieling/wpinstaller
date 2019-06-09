@@ -1,0 +1,27 @@
+{
+    "name": "justinfrieling/wpinstaller",
+    "description": "Wordpress Commandline Installer.",
+    "keywords": ["wordpress"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jusitn Frieling",
+            "email": "justin@bluefalcondev.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "justinfrieling\\wpinstaller\\Console\\": "src/"
+        }
+    },
+    "require": {
+        "ext-zip": "*",
+        "guzzlehttp/guzzle": "~6.0",
+        "symfony/console": "~3.0|~4.0",
+        "symfony/filesystem": "~3.0|~4.0",
+        "symfony/process": "~3.0|~4.0"
+    },
+    "bin": [
+        "wordpress"
+    ]
+}
